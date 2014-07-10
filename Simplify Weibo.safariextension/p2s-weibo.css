@@ -1,0 +1,18 @@
+body {
+	font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif !important;
+}
+#Box_right, #pl_content_biztips {
+	display:none !important;
+}
+#Box_center {
+	width: 830px !important;
+}
+.W_func,div[feedtype="ad"], body .footer_adv {
+	display: none !important;
+}
+body .send_weibo .input .input_detail {
+	width: calc(100% - 14px) !important;
+}
+body .WB_feed .WB_screen {
+	margin: -15px 0 0 770px !important;
+}
