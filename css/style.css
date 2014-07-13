@@ -309,6 +309,8 @@ header h1 {
 	color: #fff;
 	padding: 10px 20px;
 	margin: 2.9em 0 2em 0;
+	z-index: 100;
+	
 }
 .post a.download:hover {
 	background-color: #56b9e5;
@@ -320,6 +322,8 @@ header h1 {
 .post h2 {
 	font-size: 2.6em;
 	/*text-shadow: -1px 1px 2px rgba(0,0,0,0.5);*/
+}
+.post h2 a {
 	-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,1)));/*Webkit 蒙板*/
 }
 footer {
