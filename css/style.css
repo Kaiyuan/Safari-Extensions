@@ -275,14 +275,40 @@ a, b, input, select, textarea, blockquote, #backTop, span.sup, .tr3  {
     transform: rotateZ(45deg);
 }
 header {
-	background: #eee;
+	background: #e8eaed;
+}
+header h1 {
+	margin: 0.5em 0;
+	color: #fafafa;
+	text-shadow: -1px 1px 1px hsl(216, 12%, 82%), 
+	-1px 1px 1px hsl(216, 12%, 82%), 
+	-2px 2px 1px hsl(216, 12%, 83%), 
+	-3px 3px 2px hsl(216, 12%, 83%), 
+	-4px 4px 2px hsl(216, 12%, 84%), 
+	-5px 5px 3px hsl(216, 12%, 84%), 
+	-6px 6px 3px hsl(216, 12%, 85%), 
+	-7px 7px 4px hsl(216, 12%, 85%), 
+	-8px 8px 4px hsl(216, 12%, 86%), 
+	-9px 9px 5px hsl(216, 12%, 86%), 
+	-10px 10px 5px hsl(216, 12%, 87%), 
+	-11px 11px 6px hsl(216, 12%, 87%), 
+	-12px 12px 6px hsl(216, 12%, 88%), 
+	-13px 13px 7px hsl(216, 12%, 88%), 
+	-14px 14px 7px hsl(216, 12%, 89%), 
+	-15px 15px 8px hsl(216, 12%, 89%), 
+	-16px 16px 8px hsl(216, 12%, 90%), 
+	-17px 17px 9px hsl(216, 12%, 90%), 
+	-18px 18px 9px hsl(216, 12%, 91%), 
+	-19px 19px 10px hsl(216, 12%, 91%), 
+	-20px 20px 10px hsl(216, 12%, 92%), 
+	-21px 21px 11px hsl(216, 12%, 92%);
 }
 .post a.download {
 	border-radius: 4px;
 	background-color: #22a4de;
 	color: #fff;
 	padding: 10px 20px;
-	margin: 3.6em 0 2em 0;
+	margin: 2.9em 0 2em 0;
 }
 .post a.download:hover {
 	background-color: #56b9e5;
@@ -292,6 +318,9 @@ header {
 	padding: 1em 0 4em 0;
 }
 .post h2 {
+	font-size: 2.6em;
+	/*text-shadow: -1px 1px 2px rgba(0,0,0,0.5);*/
+	-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,1)));/*Webkit 蒙板*/
 }
 footer {
 	padding: 1em 0;
